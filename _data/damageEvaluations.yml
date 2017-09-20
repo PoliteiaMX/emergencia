@@ -4,5 +4,20 @@
 - label: "Tuitea tu foto a @RGrietas"
   tweetIntent: "@RGrietas #RevisaMiGrieta"
 
+- label: "Tuitea tu foto a @Afiag"
+  tweetIntent: "@Afiag #RevisaMiGrieta"
+
+- label: "Tuitea tu foto a @joaquindcn"
+  tweetIntent: "@joaquindcn #RevisaMiGrieta"
+
+- label: "Tuitea tu foto a @elvia_erosa"
+  tweetIntent: "@elvia_erosa #RevisaMiGrieta"
+
+- label: "Tuitea tu foto a @fooonts"
+  tweetIntent: "@fooonts #RevisaMiGrieta"
+
+- label: "Tuitea tu foto a @El_Trimax"
+  tweetIntent: "@El_Trimax #RevisaMiGrieta"
+
 - label: "Tuitea tu foto con #RevisaMiGrieta"
   tweetIntent: "#RevisaMiGrieta"
