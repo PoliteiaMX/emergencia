@@ -43,3 +43,7 @@ html {
   border: 3px solid #2196f3; /* Material Blue 900 */
   border-radius: .5em;
 }
+
+.link {
+  padding: .25em;
+}
