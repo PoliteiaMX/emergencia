@@ -11,17 +11,22 @@ html {
   font-family: "Merriweather", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.heading--3 {
+  margin: .5em 0;
+}
+
 .section {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 
 .subsection {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .button-list {
   list-style: none;
   padding-left: 0;
+  margin: 0;
 }
 
 .button-list__item {
