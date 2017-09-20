@@ -28,7 +28,7 @@ html {
 .button {
   padding: .5em;
   text-decoration: none;
-  color: #b71c1c; /* Material Red 900 */
-  border: 3px solid #b71c1c; /* Material Red 900 */
+  color: #2196f3; /* Material Blue 900 */
+  border: 3px solid #2196f3; /* Material Blue 900 */
   border-radius: .5em;
 }
