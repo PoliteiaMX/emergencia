@@ -47,7 +47,7 @@ permalink: /
         <ul class="button-list">
           {% for phone in emergencyService.phones %}
           <li class="button-list__item">
-            <a href="tel:{{ phone }}" class="button">{{ phone }}</a>
+            <a href="tel:{{ phone }}" class="button"><i class="fa fa-phone"></i> {{ phone }}</a>
           </li>
           {% endfor %}
         </ul>
@@ -82,7 +82,7 @@ permalink: /
             <a href="https://twitter.com/intent/tweet?text={{ damageEvaluation.tweetIntent | url_encode }}"
                class="button"
                target="_blank">
-              {{ damageEvaluation.label }}
+              <i class="fa fa-twitter"></i> {{ damageEvaluation.label }}
             </a>
           </li>
           {% endfor %}
