@@ -11,13 +11,22 @@ html {
   font-family: "Merriweather", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.subsection {
+.heading--3 {
+  margin: .5em 0;
+}
+
+.section {
   margin-bottom: 2em;
+}
+
+.subsection {
+  margin-bottom: 1em;
 }
 
 .button-list {
   list-style: none;
   padding-left: 0;
+  margin: 0;
 }
 
 .button-list__item {
@@ -26,9 +35,11 @@ html {
 }
 
 .button {
+  display: inline-block;
   padding: .5em;
+  margin-bottom: .25em;
   text-decoration: none;
-  color: #b71c1c; /* Material Red 900 */
-  border: 3px solid #b71c1c; /* Material Red 900 */
+  color: #2196f3; /* Material Blue 900 */
+  border: 3px solid #2196f3; /* Material Blue 900 */
   border-radius: .5em;
 }
