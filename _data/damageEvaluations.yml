@@ -1,0 +1,8 @@
+- label: "Tuitea tu foto a @Kyuutz"
+  tweetIntent: "@Kyuutz #RevisaMiGrieta"
+
+- label: "Tuitea tu foto a @RGrietas"
+  tweetIntent: "@RGrietas #RevisaMiGrieta"
+
+- label: "Tuitea tu foto con #RevisaMiGrieta"
+  tweetIntent: "#RevisaMiGrieta"

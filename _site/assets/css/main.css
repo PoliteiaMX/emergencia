@@ -11,6 +11,10 @@ html {
   font-family: "Merriweather", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.section {
+  margin-bottom: 3em;
+}
+
 .subsection {
   margin-bottom: 2em;
 }

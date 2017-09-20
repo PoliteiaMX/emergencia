@@ -37,7 +37,7 @@ permalink: /
   <body class="body">
     <h1 class="heading--1">Quiero...</h1>
 
-    <section>
+    <section class="section">
       <h2 class="heading--2">Llamar a los servicios de emergencia en CDMX</h2>
 
       {% for emergencyService in site.data.emergencyServices %}
@@ -53,6 +53,38 @@ permalink: /
         </ul>
       </div>
       {% endfor %}
+    </section>
+
+    <section class="section">
+      <h2 class="heading--2">Buscar a una persona o proporcionar información sobre alguien</h2>
+
+      <div class="subsection">
+        <ul class="button-list">
+          {% for personFinderTool in site.data.personFinderTools %}
+          <li class="button-list__item">
+            <a href="{{ personFinderTool.url }}" class="button">{{ personFinderTool.label }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="heading--2">Evaluar los daños de una construcción</h2>
+
+      <div class="subsection">
+        <ul class="button-list">
+          {% for damageEvaluation in site.data.damageEvaluations %}
+          <li class="button-list__item">
+            <a href="https://twitter.com/intent/tweet?text={{ damageEvaluation.tweetIntent | url_encode }}"
+               class="button"
+               target="_blank">
+              {{ damageEvaluation.label }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
     </section>
   </body>
 </html>
