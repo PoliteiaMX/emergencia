@@ -1,0 +1,56 @@
+- label: Emergencias
+  phones:
+    - 911
+  sources:
+    - http://cdmx.gob.mx/comunicacion/nota/9-1-1
+
+- label: Cruz Roja
+  phones:
+    - 911
+  sources:
+    - https://www.cruzrojamexicana.org.mx/
+
+- label: Locatel
+  phones:
+    - 56581111
+  sources:
+    - http://www.proteccioncivil.cdmx.gob.mx/
+
+- label: Protección Civil
+  phones:
+    - 911
+    - 56832222
+  sources:
+    - http://www.proteccioncivil.cdmx.gob.mx/
+
+- label: Bomberos
+  phones:
+    - 911
+  sources:
+    - http://www.bomberos.cdmx.gob.mx/
+
+- label: CAPEA (Centro de Atención a Personas Extraviadas y Ausentes)
+  phones:
+    - 53455067
+    - 53455084
+  sources:
+    - http://www.pgj.cdmx.gob.mx/nuestros-servicios/capea
+
+- label: CFE (Comisión Federal de Electricidad)
+  phones:
+    - "071"
+  sources:
+    - http://app.cfe.gob.mx/aplicaciones/ccfe/contactanosopciones/contactanos.aspx
+
+- label: Sistema de Aguas de la Ciudad de México
+  phones:
+    - 51304444
+    - 57280000
+  sources:
+    - http://www.sacmex.cdmx.gob.mx/
+
+- label: Denuncia Anónima
+  phones:
+    - 52089898
+  sources:
+    - http://www.ssp.cdmx.gob.mx/

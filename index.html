@@ -1,0 +1,58 @@
+---
+permalink: /
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="title" content="Sismo Septiembre 19, 2017">
+    <meta name="description" content="¿Qué hacer?">
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@politeiamx" />
+    <meta name="twitter:title" content="Teléfonos de servicios de emergencia en CDMX" />
+    <meta name="twitter:description" content="Cruz Roja, Locatel, Protección Civil, etc." />
+
+    <meta property="og:title" content="Teléfonos de servicios de emergencia en CDMX" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ site.github.url }}" />
+
+    <title>Teléfonos de servicios de emergencia en CDMX</title>
+
+    <link rel="stylesheet"
+          type="text/css"
+          href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Merriweather:400,700">
+
+    <link rel="stylesheet"
+          href="{{ site.github.url }}/assets/css/main.css">
+
+    <style type="text/css">
+
+    </style>
+  </head>
+  <body class="body">
+    <h1 class="heading--1">Quiero...</h1>
+
+    <section>
+      <h2 class="heading--2">Llamar a los servicios de emergencia en CDMX</h2>
+
+      {% for emergencyService in site.data.emergencyServices %}
+      <div class="subsection">
+        <h3 class="heading--3">{{ emergencyService.label }}</h3>
+
+        <ul class="button-list">
+          {% for phone in emergencyService.phones %}
+          <li class="button-list__item">
+            <a href="tel:{{ phone }}" class="button">{{ phone }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </section>
+  </body>
+</html>
