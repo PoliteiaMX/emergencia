@@ -1,23 +1,30 @@
 - label: "Tuitea tu foto a @Kyuutz"
+  user: Kyuutz
   tweetIntent: "@Kyuutz #RevisaMiGrieta"
 
 - label: "Tuitea tu foto a @RGrietas"
+  user: RGrietas
   tweetIntent: "@RGrietas #RevisaMiGrieta"
 
 - label: "Tuitea tu foto a @Afiag"
+  user: Afiag
   tweetIntent: "@Afiag #RevisaMiGrieta"
 
 - label: "Tuitea tu foto a @joaquindcn"
+  user: joaquindcn
   tweetIntent: "@joaquindcn #RevisaMiGrieta"
 
 - label: "Tuitea tu foto a @elvia_erosa"
+  user: elvia_erosa
   tweetIntent: "@elvia_erosa #RevisaMiGrieta"
 
 - label: "Tuitea tu foto a @fooonts"
+  user: fooonts
   tweetIntent: "@fooonts #RevisaMiGrieta"
 
 - label: "Tuitea tu foto a @El_Trimax"
+  user: El_Trimax
   tweetIntent: "@El_Trimax #RevisaMiGrieta"
 
 - label: "Tuitea tu foto con #RevisaMiGrieta"
-  tweetIntent: "#RevisaMiGrieta"
+  user: ""

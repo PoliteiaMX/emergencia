@@ -86,7 +86,7 @@ permalink: /
         <ul class="button-list">
           {% for damageEvaluation in site.data.damageEvaluations %}
           <li class="button-list__item">
-            <a href="https://twitter.com/intent/tweet?text={{ damageEvaluation.tweetIntent | url_encode }}"
+            <a href="https://twitter.com/{{ damageEvaluation.user }}"
                class="button"
                target="_blank">
               <i class="fa fa-twitter"></i> {{ damageEvaluation.label }}
