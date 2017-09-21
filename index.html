@@ -35,14 +35,38 @@ permalink: /
     </style>
   </head>
   <body class="body">
-    <h1 class="heading--1">Quiero...</h1>
+    <h1 class="heading--1" id="inicio">Emergencias</h1>
+    <h2 class="heading--2">¿Qué necesitas?</h2>
 
-    <section class="section">
-      <h2 class="heading--2">Llamar a los servicios de emergencia en CDMX</h2>
+    <nav class="nav">
+      <a href="#servicios-de-emergencia" class="button button--main">
+        <h2 class="heading--3 button__heading">Llamar a los servicios de emergencia en CDMX</h2>
+      </a>
+      <a href="#localizadores-de-personas" class="button button--main">
+        <h2 class="heading--3 button__heading">Buscar a una persona o proporcionar información sobre
+          alguien</h2>
+      </a>
+      <a href="#evaluacion-daño-construcciones" class="button button--main">
+        <h2 class="heading--3 button__heading">Evaluar los daños de una construcción</h2>
+      </a>
+      <a href="#aportaciones-monetarias" class="button button--main">
+        <h2 class="heading--3 button__heading">Hacer una aportación monetaria</h2>
+      </a>
+      <a href="#mapas" class="button button--main">
+        <h2 class="heading--3 button__heading">Saber la ubicación de brigadas, edificios en riesgo y
+          colapsados, centros de acopio y albergues</h2>
+      </a>
+      <a href="#ayuda-psicologica-gratuita" class="button button--main">
+        <h2 class="heading--3 button__heading">Obtener ayuda psicológica gratuita</h2>
+      </a>
+    </nav>
+
+    <section class="section" id="servicios-de-emergencia">
+      <h3 class="heading--3">Servicios de emergencia en CDMX</h3>
 
       {% for emergencyService in site.data.emergencyServices %}
       <div class="subsection">
-        <h3 class="heading--3">{{ emergencyService.label }}</h3>
+        <h4 class="heading--4">{{ emergencyService.label }}</h4>
 
         <ul class="button-list">
           {% for phone in emergencyService.phones %}
@@ -55,8 +79,8 @@ permalink: /
       {% endfor %}
     </section>
 
-    <section class="section">
-      <h2 class="heading--2">Buscar a una persona o proporcionar información sobre alguien</h2>
+    <section class="section" id="localizadores-de-personas">
+      <h3 class="heading--3">Localizadores de personas</h3>
 
       <div class="subsection">
         <ul class="button-list">
@@ -69,8 +93,8 @@ permalink: /
       </div>
     </section>
 
-    <section class="section">
-      <h2 class="heading--2">Evaluar los daños de una construcción</h2>
+    <section class="section" id="evaluacion-daño-construcciones">
+      <h3 class="heading--3">Evaluación de daños en construcciones</h3>
 
       <p>Si la edificación presenta grietas en diagonal (45 grados), escalonadas, profundas y son visibles
         los ladrillos, desaloja y llama a Protección Civil de inmediato.</p>
@@ -97,8 +121,8 @@ permalink: /
       </div>
     </section>
 
-    <section class="section">
-      <h2 class="heading--2">Hacer una aportación monetaria</h2>
+    <section class="section" id="aportaciones-monetarias">
+      <h3 class="heading--3">Aportaciones monetarias</h3>
 
       <div class="subsection">
         <ul class="button-list">
@@ -115,9 +139,9 @@ permalink: /
       </div>
     </section>
 
-    <section class="section">
-      <h2 class="heading--2">Saber la ubicación de brigadas, edificios en riesgo y colapsados,
-        centros de acopio y albergues</h2>
+    <section class="section" id="mapas">
+      <h3 class="heading--3">Mapas de brigadas, edificios en riesgo y colapsados, centros de acopio y
+        albergues</h3>
 
       <div class="subsection">
         <ul class="button-list">
@@ -134,8 +158,8 @@ permalink: /
       </div>
     </section>
 
-    <section class="section">
-      <h2 class="heading--2">Obtener ayuda psicológica</h2>
+    <section class="section" id="ayuda-psicologica-gratuita">
+      <h3 class="heading--3">Servicios de ayuda psicológica gratuita</h3>
 
       <div class="subsection">
         <ul class="button-list">

@@ -3,20 +3,46 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.heading--1, .heading--2, .heading--3 {
+@media (min-width: 640px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.heading--1, .heading--2, .heading--3, .heading--4 {
   font-family: "Merriweather", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.heading--1, .heading--2 {
+  text-align: center;
+}
+
+.heading--1 {
+  font-size: 1.75em;
+  margin: .75em 0;
+}
+
+.heading--2 {
+  font-size: 1.5em;
+  margin: .625em 0;
+}
+
 .heading--3 {
+  font-size: 1.25em;
   margin: .5em 0;
 }
 
-.section {
-  margin-bottom: 2em;
+.heading--4 {
+  font-size: 1.125em;
+  margin: .375em 0;
+}
+
+.nav, .section {
+  margin-bottom: 3em;
 }
 
 .subsection {
@@ -42,6 +68,19 @@ html {
   color: #2196f3; /* Material Blue 900 */
   border: 3px solid #2196f3; /* Material Blue 900 */
   border-radius: .5em;
+}
+
+.button--main {
+  display: block;
+  margin-bottom: .5em;
+  padding-top: .75em;
+  padding-bottom: .75em;
+  line-height: 1.75em;
+  text-align: center;
+}
+
+.button__heading {
+  margin: 0;
 }
 
 .link {
