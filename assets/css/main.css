@@ -41,8 +41,17 @@ html {
   margin: .375em 0;
 }
 
-.nav, .section {
+.nav {
   margin-bottom: 3em;
+}
+
+.section {
+  margin-bottom: 2em;
+  padding: .5em .5em;
+}
+
+.section:target {
+  background-color: #fff9c4; /* Material Yellow 100 */
 }
 
 .subsection {
@@ -65,8 +74,8 @@ html {
   padding: .5em;
   margin-bottom: .25em;
   text-decoration: none;
-  color: #2196f3; /* Material Blue 900 */
-  border: 3px solid #2196f3; /* Material Blue 900 */
+  color: #2196f3; /* Material Blue 500 */
+  border: 3px solid #2196f3; /* Material Blue 500 */
   border-radius: .5em;
 }
 
