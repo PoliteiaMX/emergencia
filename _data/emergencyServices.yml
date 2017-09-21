@@ -1,14 +1,11 @@
-- label: Emergencias
+- label: "Emergencias: Cruz Roja, Protección Civil, Bomberos"
   phones:
     - 911
   sources:
     - http://cdmx.gob.mx/comunicacion/nota/9-1-1
-
-- label: Cruz Roja
-  phones:
-    - 911
-  sources:
     - https://www.cruzrojamexicana.org.mx/
+    - http://www.proteccioncivil.cdmx.gob.mx/
+    - http://www.bomberos.cdmx.gob.mx/
 
 - label: Locatel
   phones:
@@ -18,16 +15,9 @@
 
 - label: Protección Civil
   phones:
-    - 911
     - 56832222
   sources:
     - http://www.proteccioncivil.cdmx.gob.mx/
-
-- label: Bomberos
-  phones:
-    - 911
-  sources:
-    - http://www.bomberos.cdmx.gob.mx/
 
 - label: CAPEA (Centro de Atención a Personas Extraviadas y Ausentes)
   phones:
