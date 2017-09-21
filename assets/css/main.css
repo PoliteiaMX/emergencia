@@ -95,3 +95,11 @@ html {
 .link {
   padding: .25em;
 }
+
+.home-button {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 3em;
+  color: #1976d2; /* Material Blue 700 */
+}
